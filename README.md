@@ -1,4 +1,4 @@
-# 🚀 AI-Powered Zendesk Customer Support Engine
+# 🚀 AI-Powered Zendesk Customer Support Ticketing System 
 <img width="3852" height="2150" alt="Image" src="https://github.com/user-attachments/assets/5633997a-adb8-40b3-9e63-699a808ad18b" />
 
 <img width="1534" height="806" alt="Image" src="https://github.com/user-attachments/assets/5f29b9f3-f999-4421-8300-d8fc8ecd0c4b" />
@@ -75,7 +75,7 @@ The core automation is built on **n8n** using a highly modular workflow. Here is
 
 **2. Import Workflow:**
 * Open your n8n instance.
-* Go to Workflows -> Import from File -> Select `n8n-zendesk-ai-flow.json` from this repository.
+* Go to Workflows -> Import from File -> Select `AI Customer Support Ticketing System.json` from this repository.
 
 **3. Configure Credentials:**
 * **Zendesk API:** Set up your Zendesk OAuth or API Token in n8n.
