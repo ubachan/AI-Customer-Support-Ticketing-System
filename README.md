@@ -70,22 +70,23 @@ The core automation is built on **n8n** using a highly modular workflow. Here is
    ```bash
    git clone zendesk-ai-automation.git
 
-```
- 2. Import Workflow:
-​Open your n8n instance.
-​Go to Workflows -> Import from File -> Select n8n-zendesk-ai-flow.json from this repository.
-​3. Configure Credentials:
-​Zendesk API: Set up your Zendesk OAuth or API Token in n8n.
-​OpenAI API: Add your OpenAI secret key.
-​Database Auth: Configure your Supabase/Postgres connection string.
-​Slack API: Connect your Slack workspace webhook.
-​4. Environment Variables Required:
-​ZENDESK_SUBDOMAIN
-​OPENAI_MODEL (Recommended: gpt-4-turbo)
-​INTERNAL_DB_URL
-​🛡️ Security Considerations
-​Prompt Injection Defense: Input validation occurs before data hits the OpenAI node.
-​Data Privacy: The Sanitize DB Response node ensures no unhashed passwords, credit card numbers, or full authorization keys are passed into the LLM context window.
+**2. Import Workflow:**
+* Open your n8n instance.
+* Go to Workflows -> Import from File -> Select `n8n-zendesk-ai-flow.json` from this repository.
 
-```
+**3. Configure Credentials:**
+* **Zendesk API:** Set up your Zendesk OAuth or API Token in n8n.
+* **OpenAI API:** Add your OpenAI secret key.
+* **Database Auth:** Configure your Supabase/Postgres connection string.
+* **Slack API:** Connect your Slack workspace webhook.
+
+**4. Environment Variables Required:**
+* `ZENDESK_SUBDOMAIN`
+* `OPENAI_MODEL` (Recommended: `gpt-4-turbo`)
+* `INTERNAL_DB_URL`
+
+## 🛡️ Security Considerations
+* **Prompt Injection Defense:** Input validation occurs before data hits the OpenAI node.
+* **Data Privacy:** The `Sanitize DB Response` node ensures no unhashed passwords, credit card numbers, or full authorization keys are passed into the LLM context window.
+
 
