@@ -68,7 +68,7 @@ The core automation is built on **n8n** using a highly modular workflow. Here is
 
 **1. Clone the Repository:**
 
-* **git clone zendesk-ai-automation.**
+* **Git clone zendesk-ai-automation.**
 
 **2. Import Workflow:**
 * Open your n8n instance.
