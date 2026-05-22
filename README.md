@@ -5,11 +5,11 @@
 
 
 ## 📌 Project Overview
-This system intercepts incoming Zendesk tickets via webhooks in real-time, classifies the customer's intent using GPT-4, securely fetches relevant user data (Account, Billing, Usage, or Logs) from the backend database (e.g., Supabase), and makes an autonomous decision:
+This system intercepts incoming Zendesk tickets via webhooks in real-time, classifies the customer's intent using GPT-4, securely fetches relevant user data (Account, Billing, Usage, or Logs) from the backend database (Supabase), and makes an autonomous decision:
 
-1. **Tier-1 Auto-Resolution:** Automatically drafts and replies to standard queries (e.g., API key resets, basic troubleshooting) in under 2 seconds.
+1. **Tier-1 Auto-Resolution:** Automatically drafts and replies to standard queries (API key resets, basic troubleshooting) in under 2 seconds.
 
-2. **Human Escalation:** For complex or critical issues (e.g., Security breaches), it compiles an AI summary with full context and routes the ticket to a human agent while notifying the team via Slack.
+2. **Human Escalation:** For complex or critical issues (Security breaches), it compiles an AI summary with full context and routes the ticket to a human agent while notifying the team via Slack.
 
 ### 📊 Impact & Performance Metrics
 * **80% Reduction** in Tier-1 resolution time.
