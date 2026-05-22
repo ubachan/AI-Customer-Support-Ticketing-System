@@ -1,4 +1,7 @@
 # 🚀 AI-Powered Zendesk Customer Support Engine
+<img width="3852" height="2150" alt="Image" src="https://github.com/user-attachments/assets/5633997a-adb8-40b3-9e63-699a808ad18b" />
+
+<img width="1534" height="806" alt="Image" src="https://github.com/user-attachments/assets/5f29b9f3-f999-4421-8300-d8fc8ecd0c4b" />
 
 > An enterprise-grade, fully automated ticketing system built with n8n and OpenAI to instantly resolve Tier-1 support tickets and intelligently escalate complex issues to human agents.
 
